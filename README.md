@@ -47,6 +47,16 @@ Use John to crack the hashed passwords:
 john --wordlist=passwords.txt hashes_john.txt
 
 
+### Run Hashcat (Use Hashcat to Crack the Hashed Passwords):
+<img src="https://github.com/user-attachments/assets/a61b8930-0ea1-48cf-aae0-743f8dad3774" alt="Hashcat Output">  
+
+- `-m 0`: Specifies MD5 hashes  
+- `-a 0`: Specifies a dictionary attack  
+- `-o`: Specifies the output file  
+
+### View the Cracked Passwords:
+Once Hashcat finishes, view the cracked passwords in `cracked_passwords.txt`:  
+<img src="https://github.com/user-attachments/assets/0237fb16-cb70-4346-b116-c3e5f2e190cd" alt="Cracked Passwords by Hashcat">
 
 
 
