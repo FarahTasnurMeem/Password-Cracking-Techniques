@@ -56,6 +56,7 @@ Password cracking is a method used in penetration testing to determine the stren
 
 2.  **Run Hashcat**
    - Use Hashcat to crack the hashed passwords
+
 ![image](https://github.com/user-attachments/assets/a61b8930-0ea1-48cf-aae0-743f8dad3774)
 
 3. **View the Cracked Passwords:**
