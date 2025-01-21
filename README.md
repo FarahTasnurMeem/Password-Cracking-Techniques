@@ -37,10 +37,13 @@ Password cracking is a method used in penetration testing to determine the stren
    - Create a file named hashes_john.txt' and add the hashes from 'hashes_password.txt in a format john can understand**
 ![image](https://github.com/user-attachments/assets/8feca984-40f5-43f5-9159-940b94c7ba46)
 
-**Run John the Ripper (Use john to crack the hashed passwords**
+2. **Run John the Ripper**
+   - Use john to crack the hashed passwords
+   - John will match the passwords with the provided passwords
 ![image](https://github.com/user-attachments/assets/cb26f583-cc10-45dd-a919-1b993d889b0a)
 
- Once Hashcat finishes, view the cracked passwords in `cracked_passwords.txt".
+3. **View cracked Passwords**
+   - Once Hashcat finishes, view the cracked passwords in `cracked_passwords.txt".
  ![image](https://github.com/user-attachments/assets/0237fb16-cb70-4346-b116-c3e5f2e190cd)
 
 
