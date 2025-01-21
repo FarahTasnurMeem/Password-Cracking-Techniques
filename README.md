@@ -13,7 +13,13 @@ Password cracking is a method used in penetration testing to determine the stren
 ### Step 1: Set Up the Environment
 1. **Install Kali Linux**:
    - Download Kali Linux from [https://www.kali.org/downloads/](https://www.kali.org/downloads/).
-   - Install Kali Linux in a virtual machine or on a physical machine. If
+   - Install Kali Linux in a virtual machine or on a physical machine. If you're using VirtualBox, you can import the Kali Linux OVA file.
+
+2. **Ensure Tools Are Installed**:
+   - Open a terminal in Kali Linux and verify that Hashcat and John the Ripper are installed:
+   ```bash
+   hashcat --version
+   john --version
 
 
 
