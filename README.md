@@ -26,15 +26,15 @@ Password cracking is a method used in penetration testing to determine the stren
 ![image](https://github.com/user-attachments/assets/d5a5c760-dff2-4b52-b705-e77d1d6bfd8b)
 
 2. **Hash the Passwords**:
-   --Use `openssl to hash the passwords in MD5 format.
+   - Use `openssl to hash the passwords in MD5 format.
    - The file `hashed_password.txt` will contain the MD5 hashes of the sample passwords.
 
 ![image](https://github.com/user-attachments/assets/3d09b74d-b5a8-4032-bb0c-17e38bd9ab7e)
 
 ## Step 3: Crack Password with John the Ripper
 1. **Prepare hashes for John**:
-   --Use `openssl to hash the passwords in MD5 format.
-   --Create a file named hashes_john.txt' and add the hashes from 'hashes_password.txt in a format john can understand**
+   - Use `openssl to hash the passwords in MD5 format.
+   - Create a file named hashes_john.txt' and add the hashes from 'hashes_password.txt in a format john can understand**
 ![image](https://github.com/user-attachments/assets/8feca984-40f5-43f5-9159-940b94c7ba46)
 
 **Run John the Ripper (Use john to crack the hashed passwords**
