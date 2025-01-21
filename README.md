@@ -52,6 +52,8 @@ Password cracking is a method used in penetration testing to determine the stren
    - Run Hashcat
    - Create a file named `hashes_hashcat.txt` and add the raw hashes from
 `hashed_passwords.txt`.
+![image](https://github.com/user-attachments/assets/9c6ac604-e02d-4943-b32c-a99e27e954ab)
+
 2.  **Run Hashcat**
    - Use Hashcat to crack the hashed passwords
    - Especifies MD5 hashes, `-a e` specifies a dictionary attack, and `-` specifies the output file.
