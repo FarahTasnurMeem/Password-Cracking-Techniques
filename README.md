@@ -8,8 +8,6 @@
 ## Overview
 Password cracking is a method used in penetration testing to determine the strength of passwords used in a system. This project will guide you through password cracking techniques using tools like Hashcat and John the Ripper.
 
-## Step-by-Step Guide
-
 ### Step 1: Set Up the Environment
 1. **Install Kali Linux**:
    - Download Kali Linux from [https://www.kali.org/downloads/](https://www.kali.org/downloads/).
@@ -20,16 +18,13 @@ Password cracking is a method used in penetration testing to determine the stren
    ```bash
    hashcat --version
    john --version
+   
 
-
-
-
-# Password-Cracking-Techniques
-
-
-**Installed hashcat and john, Made a password.txt file with few  sample passwords:
+### Step 2: Make a password.txt file with few sample passwords
 ![image](https://github.com/user-attachments/assets/d5a5c760-dff2-4b52-b705-e77d1d6bfd8b)
 
+### Step 3: Hash the passwords
+![image](https://github.com/user-attachments/assets/3d09b74d-b5a8-4032-bb0c-17e38bd9ab7e)
 **Hash the Passwords:**
 
 **Crach Password with John the Ripper:**
