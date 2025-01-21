@@ -21,6 +21,32 @@ Password cracking is a method used in penetration testing to determine the stren
    hashcat --version
    john --version
 
+# Password Cracking Techniques
+
+## Step 2: Create Sample Password Hashes
+
+### Generate Sample Passwords:
+Create a file named `passwords.txt` with some sample passwords:  
+<img src="https://github.com/user-attachments/assets/d5a5c760-dff2-4b52-b705-e77d1d6bfd8b" alt="Sample Password File">
+
+### Hash the Passwords:
+Use `openssl` to hash the passwords in MD5 format:  
+<img src="https://github.com/user-attachments/assets/3d09b74d-b5a8-4032-bb0c-17e38bd9ab7e" alt="Hashed Passwords">
+
+---
+
+## Step 3: Crack Passwords with John the Ripper
+
+### Prepare the Hashes for John:
+Create a file named `hashes_john.txt` and add the hashes from `hashed_passwords.txt` in a format John can understand:  
+<img src="https://github.com/user-attachments/assets/8feca984-40f5-43f5-9159-940b94c7ba46" alt="Hashes for John the Ripper">
+
+### Run John the Ripper:
+Use John to crack the hashed passwords:
+```bash
+john --wordlist=passwords.txt hashes_john.txt
+
+
 
 
 
