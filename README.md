@@ -14,9 +14,19 @@ Password Cracking Techniques
 ![image](https://github.com/user-attachments/assets/8feca984-40f5-43f5-9159-940b94c7ba46)
 
 **Run John the Ripper (Use john to crack the hashed passwords**
-
-
-
-
+![image](https://github.com/user-attachments/assets/cb26f583-cc10-45dd-a919-1b993d889b0a)
 
  Once Hashcat finishes, view the cracked passwords in `cracked_passwords.txt".
+ ![image](https://github.com/user-attachments/assets/0237fb16-cb70-4346-b116-c3e5f2e190cd)
+
+
+**Run Hashcat(Use Hashcat to crack the hashed passwords.):**
+![image](https://github.com/user-attachments/assets/a61b8930-0ea1-48cf-aae0-743f8dad3774)
+
+especifies MD5 hashes, `-a e` specifies a dictionary attack, and `-` specifies the output file.
+
+3. View the Cracked Passwords:
+Once Hashcat finishes, view the cracked passwords in `cracked_passwords.txt`.
+bash
+Copy code
+cat cracked_passwords.txt
