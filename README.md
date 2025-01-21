@@ -53,6 +53,9 @@ john --wordlist=passwords.txt hashes_john.txt
 
 
 
+
+
+
 # Password-Cracking-Techniques
 
 
