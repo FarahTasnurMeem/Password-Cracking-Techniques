@@ -46,8 +46,14 @@ Use John to crack the hashed passwords:
 ```bash
 john --wordlist=passwords.txt hashes_john.txt
 
+## Step 3: Crack Passwords with John the Ripper
 
-### Run Hashcat (Use Hashcat to Crack the Hashed Passwords):
+### Prepare the Hashes for John:
+Create a file named `hashes_john.txt` and add the hashes from `hashed_passwords.txt` in a format John can understand:  
+<img src="https://github.com/user-attachments/assets/8feca984-40f5-43f5-9159-940b94c7ba46" alt="Hashes for John the Ripper">
+
+
+## Step Run Hashcat (Use Hashcat to Crack the Hashed Passwords):
 <img src="https://github.com/user-attachments/assets/a61b8930-0ea1-48cf-aae0-743f8dad3774" alt="Hashcat Output">  
 
 - `-m 0`: Specifies MD5 hashes  
