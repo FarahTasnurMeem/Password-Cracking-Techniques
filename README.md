@@ -27,6 +27,6 @@ especifies MD5 hashes, `-a e` specifies a dictionary attack, and `-` specifies t
 
 3. View the Cracked Passwords:
 Once Hashcat finishes, view the cracked passwords in `cracked_passwords.txt`.
-bash
-Copy code
+
 cat cracked_passwords.txt
+
