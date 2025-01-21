@@ -54,5 +54,6 @@ especifies MD5 hashes, `-a e` specifies a dictionary attack, and `-` specifies t
 3. View the Cracked Passwords:
 Once Hashcat finishes, view the cracked passwords in `cracked_password.txt`.
 
+![image](https://github.com/user-attachments/assets/1e078f5b-bae2-4670-8eb2-502475c4f6d7)
 
 
