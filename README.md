@@ -50,8 +50,8 @@ Password cracking is a method used in penetration testing to determine the stren
 ### Step 4:Crack Passwords with Hashcats
 1. **Prepare the Hashes for Hashcat:**
    - Run Hashcat
-   - Create a file named `hashes_hashcat.txt` and add the raw hashes from
-`hashed_passwords.txt`.
+   - Create a file named `hashes_hashcat.txt` and add the raw hashes from `hashed_passwords.txt`.
+
 ![image](https://github.com/user-attachments/assets/9c6ac604-e02d-4943-b32c-a99e27e954ab)
 
 2.  **Run Hashcat**
