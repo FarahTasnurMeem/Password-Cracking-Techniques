@@ -22,7 +22,7 @@ Password cracking is a method used in penetration testing to determine the stren
 
 
 # Password-Cracking-Techniques
-Password Cracking Techniques
+
 
 **Installed hashcat and john, Made a password.txt file with few  sample passwords:
 ![image](https://github.com/user-attachments/assets/d5a5c760-dff2-4b52-b705-e77d1d6bfd8b)
