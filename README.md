@@ -26,7 +26,7 @@ Password Cracking Techniques
 especifies MD5 hashes, `-a e` specifies a dictionary attack, and `-` specifies the output file.
 
 3. View the Cracked Passwords:
-Once Hashcat finishes, view the cracked passwords in `cracked_passwords.txt`.
+Once Hashcat finishes, view the cracked passwords in `cracked_password.txt`.
 
-cat cracked_passwords.txt
+
 
