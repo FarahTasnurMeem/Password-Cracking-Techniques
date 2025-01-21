@@ -1,3 +1,26 @@
+# Password Cracking Techniques
+
+## Prerequisites
+- Basic knowledge of Linux commands.
+- A computer with internet access.
+- Hashcat and John the Ripper installed (you can use Kali Linux for pre-installed tools).
+
+## Overview
+Password cracking is a method used in penetration testing to determine the strength of passwords used in a system. This project will guide you through password cracking techniques using tools like Hashcat and John the Ripper.
+
+## Step-by-Step Guide
+
+### Step 1: Set Up the Environment
+1. **Install Kali Linux**:
+   - Download Kali Linux from [https://www.kali.org/downloads/](https://www.kali.org/downloads/).
+   - Install Kali Linux in a virtual machine or on a physical machine. If
+
+
+
+
+
+
+
 # Password-Cracking-Techniques
 Password Cracking Techniques
 
