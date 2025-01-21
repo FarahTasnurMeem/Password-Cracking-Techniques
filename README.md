@@ -14,7 +14,7 @@ Password Cracking Techniques
 ![image](https://github.com/user-attachments/assets/8feca984-40f5-43f5-9159-940b94c7ba46)
 
 **Run John the Ripper (Use john to crack the hashed passwords**
-![image](https://github.com/user-attachments/assets/d210aff4-7690-446b-9325-2f73e8e795c7)
+
 
 
 
