@@ -2,8 +2,7 @@
 
 ## Prerequisites
 - Basic knowledge of Linux commands.
-- A computer with internet access.
-- Hashcat and John the Ripper installed (you can use Kali Linux for pre-installed tools).
+- Hashcat and John the Ripper installed 
 
 ## Overview
 Password cracking is a technique used in penetration testing to evaluate the strength of passwords in a system. In this project, I explore various password cracking methods using tools such as Hashcat and John the Ripper. The project demonstrates the importance of implementing strong password policies and highlights the effectiveness of different cracking techniques in identifying vulnerabilities in password security..
