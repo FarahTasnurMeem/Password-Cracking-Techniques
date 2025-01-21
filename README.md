@@ -37,29 +37,29 @@ Password cracking is a method used in penetration testing to determine the stren
    - Create a file named hashes_john.txt' and add the hashes from 'hashes_password.txt in a format john can understand**
 ![image](https://github.com/user-attachments/assets/8feca984-40f5-43f5-9159-940b94c7ba46)
 
-2. **Run John the Ripper**
+2. **Run John the Ripper**:
    - Use john to crack the hashed passwords
    - John will match the passwords with the provided passwords
 ![image](https://github.com/user-attachments/assets/cb26f583-cc10-45dd-a919-1b993d889b0a)
 
-3. **View cracked Passwords**
+3. **View cracked Passwords**:
    - Once Hashcat finishes, view the cracked passwords in `cracked_passwords.txt".
  ![image](https://github.com/user-attachments/assets/0237fb16-cb70-4346-b116-c3e5f2e190cd)
 
 
 ### Step 4:Crack Passwords with Hashcats
-1. **Prepare the Hashes for Hashcat:**
+1. **Prepare the Hashes for Hashcat**:
    - Run Hashcat
    - Create a file named `hashes_hashcat.txt` and add the raw hashes from `hashed_passwords.txt`.
 
 ![image](https://github.com/user-attachments/assets/9c6ac604-e02d-4943-b32c-a99e27e954ab)
 
-2.  **Run Hashcat**
+2.  **Run Hashcat**:
    - Use Hashcat to crack the hashed passwords
 
 ![image](https://github.com/user-attachments/assets/a61b8930-0ea1-48cf-aae0-743f8dad3774)
 
-3. **View the Cracked Passwords:**
+3. **View the Cracked Passwords**:
    - Once Hashcat finishes, view the cracked passwords in `cracked_password.txt`.
 
 ![image](https://github.com/user-attachments/assets/1e078f5b-bae2-4670-8eb2-502475c4f6d7)
